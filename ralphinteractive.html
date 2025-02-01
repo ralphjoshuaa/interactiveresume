@@ -1936,6 +1936,14 @@
         window.addEventListener('load', function() {
             backgroundMusic.play();
         });        
+
+        const startBtn = document.getElementById('startbtn');
+        const audio = document.getElementById('backgroundMusic');
+
+        startBtn.addEventListener('click', () => {
+          audio.play();
+        });
+
     </script>
 </body>
 </html>
